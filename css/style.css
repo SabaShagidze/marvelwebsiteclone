@@ -334,9 +334,8 @@ body {
 }
 
 .card-two-modal-inner {
-  width: 60%;
-  height: 70%;
-  background: #fff;
+  width: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -345,10 +344,15 @@ body {
 }
 
 .modal-close-button {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: 0;
   padding: 2rem;
+  color: white;
+}
+
+.modal-close-button i {
   cursor: pointer;
 }
 
