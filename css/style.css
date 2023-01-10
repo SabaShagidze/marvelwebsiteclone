@@ -360,6 +360,11 @@ body {
 
 .modal-close-button i {
   cursor: pointer;
+  transition: all 0.5s;
+}
+.modal-close-button i:hover {
+  color: var(--main-color);
+  transform: scale(1.1);
 }
 
 .modal-video-container {
