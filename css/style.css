@@ -216,7 +216,7 @@ body {
 }
 
 .card-one-text-container p {
-  color: rgb(84, 84, 84);
+  color: var(--main-color);
   font-weight: bold;
   font-size: 0.8rem;
 }
@@ -268,12 +268,13 @@ body {
 }
 
 .video-container-right h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bolder;
+  color: var(--main-color);
 }
 
 .video-container-right h2 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: bolder;
 }
 
@@ -287,15 +288,20 @@ body {
 }
 .card-cont-two-inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .card-two {
   width: 20rem;
   height: 18rem;
   cursor: pointer;
+  transition: all 0.5s;
   box-shadow: 2px 4px 4px rgb(186, 186, 186);
+}
+.card-two:hover {
+  transform: translateY(-15px);
 }
 
 .card-cont-two-img {
@@ -454,7 +460,7 @@ body {
 
   /* Video Container */
   .video-container-inner {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .video-container-right {
     text-align: center;
