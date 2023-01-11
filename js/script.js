@@ -49,7 +49,7 @@ modalOpenButtonFour.onclick = function () {
 
 modalCloseButton.onclick = function () {
   modalOne.style.display = "none";
-  document.querySelector("video").pause();
+  document.getElementById("video").pause();
 };
 modalCloseButtonTwo.onclick = function () {
   modalTwo.style.display = "none";
