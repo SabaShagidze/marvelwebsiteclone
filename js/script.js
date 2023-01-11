@@ -63,3 +63,5 @@ modalCloseButtonFour.onclick = function () {
   modalFour.style.display = "none";
   document.getElementById("videoFour").pause();
 };
+
+// Swiper

@@ -254,7 +254,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   gap: 2rem;
   min-height: fit-content;
 }
@@ -370,6 +370,9 @@ body {
 .modal-video-container {
   display: flex;
 }
+
+/* Slider */
+
 
 @media (max-width: 1400px) {
   /* Navigation */
