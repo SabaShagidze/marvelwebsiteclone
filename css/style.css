@@ -452,15 +452,15 @@ body {
   }
   /* First Card Container */
   .card-cont-one-inner {
-    flex-direction: column;
+    flex-direction: row;
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
     align-items: center;
   }
-  .card-one {
-    width: 90%;
-  }
+  /* .card-one {
+    width: 50%;
+  } */
   .card-one-image-container {
     background-position: center !important;
     background-size: cover !important;
