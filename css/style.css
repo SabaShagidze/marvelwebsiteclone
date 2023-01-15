@@ -443,10 +443,6 @@ body {
   transition: all 0.3s !important;
 }
 
-.swiper-slide:hover {
-  box-shadow: 0 0 15px #b60000;
-}
-
 .swiper-slide-bot a {
   color: black;
   font-size: 1.5rem;
@@ -456,6 +452,89 @@ body {
 
 .swiper-slide-bot a:hover {
   color: #b60000;
+}
+
+/* Full Swiper */
+
+.full-swiper {
+  width: 100%;
+  overflow: hidden;
+  height: 40rem;
+}
+
+.mySwiperFull {
+  min-height: 13rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.289) 95%),
+    url(../images/fullswiper/fullbk.jpg);
+}
+
+.swiper-full-slide {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-full-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+  align-items: flex-end;
+  text-align: end;
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+}
+
+.swiper-full-right {
+  height: 100%;
+}
+
+.swiper-full-right img {
+  max-height: 100%;
+  object-position: center;
+}
+
+.swiper-full-top {
+  font-size: 12px;
+}
+
+.swiper-full-header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.swiper-full-paragraph {
+  width: 70%;
+  font-size: 15px;
+}
+
+.swiper-full-button {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  background: #b60000;
+  box-shadow: 0 0 12px #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.swiper-full-button:hover {
+  background: #fff;
+  color: #b60000;
+  transform: scale(1.2) translateY(-5px);
+}
+
+#fullswtwo {
+  flex-direction: row-reverse;
+}
+
+#fullswtoleft {
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
 }
 
 /* Slider End */
@@ -570,7 +649,7 @@ body {
 
   /* carousel */
   .card-carousel {
-    padding: 0 ;
+    padding: 0;
   }
   .section-header {
     text-align: center;

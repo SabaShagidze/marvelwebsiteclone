@@ -88,3 +88,6 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+// Full Swiper
+var swiper = new Swiper(".mySwiperFull", {});
