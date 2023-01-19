@@ -458,8 +458,9 @@ body {
 
 .full-swiper {
   width: 100%;
+  height: 45rem;
   overflow: hidden;
-  height: 40rem;
+  min-height: fit-content;
 }
 
 .mySwiperFull {
@@ -490,7 +491,7 @@ body {
 }
 
 .swiper-full-right img {
-  max-height: 100%;
+  height: 45rem;
   object-position: center;
 }
 
@@ -538,6 +539,31 @@ body {
 }
 
 /* Slider End */
+
+/* Characters */
+#myCharactersFull {
+  background: url(../images/characters/chbk.jpg);
+  background-size: contain;
+}
+#charactersTopRight {
+  min-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characters-full-slide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.character-slide-right {
+  text-align: start;
+}
+
+.character-slide-left img {
+  height: 40rem;
+}
 
 @media (max-width: 1400px) {
   /* Navigation */
@@ -653,6 +679,23 @@ body {
   }
   .section-header {
     text-align: center;
+  }
+
+  /* characters */
+  .characters-full-slide {
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+  }
+  #charactersFullParagraph {
+    display: none;
+  }
+  .characters-full-left {
+    width: 100%;
+  }
+  .characters-full-button {
+    display: none;
   }
 }
 /* Navigation - End */
