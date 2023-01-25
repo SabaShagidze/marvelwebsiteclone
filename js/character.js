@@ -33,4 +33,4 @@ useEffect(() => {
   swiper.init();
 }, []);
 
-// Who box
+// browse

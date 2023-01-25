@@ -993,6 +993,68 @@ footer {
   background-size: cover;
 }
 
+/* Browse */
+.browse {
+  padding: 5rem 15rem;
+}
+
+.browse-card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 250px;
+  height: 400px;
+}
+
+.browse-card-top {
+  height: 350px;
+}
+
+.browse-card-bot {
+  display: flex;
+  justify-content: center;
+}
+
+.browse-card-bot p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.browse-button-holder {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-button-holder button {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.browse-card-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#browseCardHolderTwo {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   /* Navigation */
   .navbar {
@@ -1229,13 +1291,16 @@ footer {
 
   .footer-trademark p {
     text-align: center;
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
-
 
   .join-left h2 {
     font-size: 1rem;
     text-align: center;
+  }
+
+  .browse {
+    padding: 5rem 0;
   }
 }
 
