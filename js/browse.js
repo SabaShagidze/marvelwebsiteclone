@@ -7,11 +7,15 @@ const browseBtnTwo = document.getElementById("browseBtnTwo");
 browseBtnTwo.onclick = function () {
   browseOne.style.display = "none";
   browseTwo.style.display = "flex";
+  browseBtnTwo.classList.add("browse-button-active")
+  browseBtnOne.classList.remove("browse-button-active")
 };
 
 browseBtnOne.onclick = function () {
   browseOne.style.display = "flex";
   browseTwo.style.display = "none";
+  browseBtnTwo.classList.remove("browse-button-active")
+  browseBtnOne.classList.add("browse-button-active")
 };
 
 const whoBox = {

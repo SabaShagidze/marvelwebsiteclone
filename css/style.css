@@ -86,7 +86,7 @@ body {
 
 .nav-link {
   transition: 0.7s ease;
-  font-size: 17px;
+  font-size: 13px;
   color: black;
   font-weight: bold;
 }
@@ -947,9 +947,10 @@ footer {
 }
 
 .who-box-inner p {
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--main-color);
+  text-shadow: 0 0 15px var(--main-color);
 }
 
 .who-header {
@@ -1043,6 +1044,16 @@ footer {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
+  background: none;
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 50px;
+}
+
+.browse-button-active {
+  color: #fff !important;
+  background: var(--main-color) !important;
+  box-shadow: 0 0 10px var(--main-color);
 }
 
 .browse-card-top img {
