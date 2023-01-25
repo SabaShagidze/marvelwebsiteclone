@@ -33,4 +33,3 @@ useEffect(() => {
   swiper.init();
 }, []);
 
-// browse

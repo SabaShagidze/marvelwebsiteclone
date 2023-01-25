@@ -922,6 +922,7 @@ footer {
 }
 
 .who-box {
+  cursor: pointer;
   height: 25rem;
   width: 12rem;
   border: 1px solid black;
@@ -1053,6 +1054,122 @@ footer {
 
 #browseCardHolderTwo {
   display: none;
+}
+
+/* Characters Footer */
+#charactersFooter {
+  background: #fff;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.footer-inner-bottom {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(38, 38, 38);
+}
+
+.footer-bot-right {
+  display: flex;
+  gap: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.footer-bot-right i {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.footer-link-icon {
+  color: #fff;
+}
+
+.footer-bot-right i:hover {
+  color: var(--main-color) !important;
+}
+
+.characters-footer-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(
+      rgba(38, 38, 38, 0.46),
+      rgba(38, 38, 38, 0.46) 95%
+    ),
+    url(../images/characters/charfoottwo.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 25rem;
+  padding: 4rem;
+}
+
+.footer-bot-left button {
+  width: 10rem;
+  height: 3rem;
+  background: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.characters-footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.character-footer-left-top {
+  display: flex;
+  gap: 2rem;
+}
+.characters-footer-right {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footerlogo a {
+  font-size: 5rem !important;
+}
+.character-footer-header {
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.character-footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.character-footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.character-footer-col ul li a {
+  color: rgb(210, 210, 210);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.character-footer-left-bot p {
+  color: #fff;
+  font-weight: bold;
+}
+.character-footer-left-bot a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.footerlogo a {
+  color: #fff;
+  border: 3px solid #fff;
 }
 
 @media (max-width: 1400px) {
@@ -1301,6 +1418,22 @@ footer {
 
   .browse {
     padding: 5rem 0;
+  }
+
+  .browse-card {
+    width: 40%;
+  }
+
+  /* Characters Footer */
+  .characters-footer-inner {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+  .footer-inner-bottom {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
   }
 }
 
