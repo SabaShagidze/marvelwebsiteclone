@@ -1427,13 +1427,16 @@ footer {
   /* Characters Footer */
   .characters-footer-inner {
     flex-direction: column;
-    padding: 1rem;
+    padding: 0;
     text-align: center;
   }
   .footer-inner-bottom {
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
+  }
+  .footerlogo a {
+    font-size: 2.5rem !important;
   }
 }
 
