@@ -942,6 +942,27 @@ footer {
   display: none;
 }
 
+/* Character Modals */
+/* .character-modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: 2px solid purple;
+}
+
+.character-modal-left {
+  border: 2 px solid red;
+  width: 50%;
+  height: 50%;
+} */
+
+/* Character Modal End */
+
 #whoInnerOne {
   display: none;
 }
