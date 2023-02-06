@@ -1206,93 +1206,81 @@ footer {
 
 /* Comics */
 
-.comics-top-cont {
-  height: 45rem;
-  background-color: rgb(26, 26, 26);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.comics-top-swiper {
-  width: 100%;
-  height: 80%;
-}
-
-.comics-swiper-slide-top {
-  background: none;
-}
-
-.comics-swiper-slide-inner {
-  height: 30rem;
-  width: 20rem;
-}
-
-.comics-swiper-slide-inner p {
-  text-align: left;
-  margin: 0.3rem 0;
-  font-size: 1rem;
-  color: #fff;
-  text-shadow: 0 0 4px #fff;
-}
-
-.comics-swiper-slide-inner span {
-  font-size: 0.9rem;
-  color: var(--main-color);
-  text-shadow: 0 0 4px var(--main-color);
-}
-
-.comic-top-cont-header {
-  width: 90%;
+.comics-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.comic-top-cont-header ul {
+.com-top-sec-buttons {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
-.comic-header-one {
-  background: var(--main-color);
-  width: 25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3rem;
-}
-
-.comic-header-one h2 {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-shadow: 0 0 4px #fff;
-  letter-spacing: 0.2rem;
-}
-
-.comics-top-cont-btn {
+.com-top-sec-buttons button {
   background: none;
   border: none;
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
 }
 
 .comics-btn-active {
+  color: var(--main-color) !important;
+  text-shadow: 0 0 10px var(--main-color);
+}
+
+.com-top-sec-header {
+  background: var(--main-color);
+  width: 35rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-top-sec-header h2 {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff;
+}
+
+.comic-carousel {
+  background: rgb(22, 22, 22);
+}
+
+.comic-slide {
+  background: transparent;
+  width: 20rem !important;
+  height: 40rem !important;
+}
+
+.comic-slide-bot {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.comic-slide-bot a {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.comic-slide-bot span {
   color: var(--main-color);
-  text-shadow: 0 0 4px var(--main-color);
 }
 
-#comicTopContTwo {
+#lastWeekSection {
   display: none;
 }
 
-#comicTopContThree {
+#upcomingSection {
   display: none;
+}
+
+.comic-slide-top img{
+  object-fit: cover;
 }
 
 @media (max-width: 1400px) {

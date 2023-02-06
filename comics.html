@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comicbooks</title>
+    <title>Comics</title>
+    <!-- Reset Css -->
     <link rel="stylesheet" href="css/reset.css" />
+    <!-- Main Css File -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -15,9 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="js/script.js" defer></script>
-    <script src="js/comics.js" defer></script>
-    <script src="js/browse.js" defer></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   </head>
   <body>
     <header>
@@ -31,7 +33,7 @@
                   <a href="characters.html" class="nav-link">Characters</a>
                 </li>
                 <li class="nav-item">
-                  <a href="" class="nav-link">Comics</a>
+                  <a href="comics.html" class="nav-link">Comics</a>
                 </li>
                 <li class="nav-item">
                   <a href="" class="nav-link">Movies & TV</a>
@@ -64,769 +66,266 @@
       </div>
     </header>
     <main>
-      <section class="full-width-cont comics-top-cont">
-        <div class="swiper mySwiper comics-top-swiper" id="comicTopContOne">
+      <section class="card-carousel comic-carousel">
+        <div class="section-header comics-header">
+          <div class="com-top-sec-header"><h2>Comics & Graphic Novels</h2></div>
+          <div class="com-top-sec-buttons">
+            <button class="comics-btn-active" id="thisWeek">This Week</button>
+            <button id="lastWeek">Last Week</button>
+            <button id="upcm">Upcoming</button>
+          </div>
+        </div>
+        <div class="swiper mySwiper comic-swiper" id="thisWeekSection">
           <div class="swiper-wrapper">
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/shuri.jpg" alt="" />
-                <p>
-                  Shuri #1 1<br />
-                  <span>Okorafor, Romero</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/bp.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Black Panther #1 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/devil.jpg" alt="" />
-                <p>
-                  DareDevil #1 <br />
-                  <span>Soule, Garney</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/vn.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Venom Lethal #2 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/thor.jpg" alt="" />
-                <p>
-                  Thor: God Of Thunder #1 <br />
-                  <span>Aaron, Riblic</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/ml.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Miles Morales #1 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/widow.jpg" alt="" />
-                <p>
-                  Black Widow #1 <br />
-                  <span>Thompson, Lulis</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/wlr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Wolverine #29 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/x.jpg" alt="" />
-                <p>
-                  X-Men #1 <br />
-                  <span>Taylor, Larraz</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/dr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DareDevil #1 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/redgob.jpg" alt="" />
-                <p>
-                  Red Goblin <br />
-                  <span>Smith, Baldeon</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/sw.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Spider-Woman #18 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/bcat.jpg" alt="" />
-                <p>
-                  Black Cat #6 <br />
-                  <span>Sumerak, Vito</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Black Cat #6 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/dp.jpg" alt="" />
-                <p>
-                  DeadPool #3 <br />
-                  <span>Thorne, Luis</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DeadPool #3 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/gr.jpg" alt="" />
-                <p>
-                  Ghost Rider #8 <br />
-                  <span>Nicieza, Bowden</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Ghost Rider #8 <br /><span>author, author</span></a>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper mySwiper comics-top-swiper" id="comicTopContTwo">
+        <div class="swiper mySwiper comic-swiper" id="lastWeekSection">
           <div class="swiper-wrapper">
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/shuri.jpg" alt="" />
-                <p>
-                  Shuri #1 2<br />
-                  <span>Okorafor, Romero</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/comics/2099.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Spider-Man 2099 #10 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/devil.jpg" alt="" />
-                <p>
-                  DareDevil #1 <br />
-                  <span>Soule, Garney</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/comics/devilwoman.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DareDevil #30 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/thor.jpg" alt="" />
-                <p>
-                  Thor: God Of Thunder #1 <br />
-                  <span>Aaron, Riblic</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/new-comicbooks/ml.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Miles Morales #1 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/widow.jpg" alt="" />
-                <p>
-                  Black Widow #1 <br />
-                  <span>Thompson, Lulis</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/new-comicbooks/wlr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Wolverine #29 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/x.jpg" alt="" />
-                <p>
-                  X-Men #1 <br />
-                  <span>Taylor, Larraz</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/new-comicbooks/dr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DareDevil #1 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/redgob.jpg" alt="" />
-                <p>
-                  Red Goblin <br />
-                  <span>Smith, Baldeon</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
+                <img src="images/new-comicbooks/sw.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Spider-Woman #18 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
                 <img src="images/new-comicbooks/bcat.jpg" alt="" />
-                <p>
-                  Black Cat #6 <br />
-                  <span>Sumerak, Vito</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Black Cat #6 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
                 <img src="images/new-comicbooks/dp.jpg" alt="" />
-                <p>
-                  DeadPool #3 <br />
-                  <span>Thorne, Luis</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DeadPool #3 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top comic-slide-top">
                 <img src="images/new-comicbooks/gr.jpg" alt="" />
-                <p>
-                  Ghost Rider #8 <br />
-                  <span>Nicieza, Bowden</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Ghost Rider #8 <br /><span>author, author</span></a>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper mySwiper comics-top-swiper" id="comicTopContThree">
+        <div class="swiper mySwiper comic-swiper" id="upcomingSection">
           <div class="swiper-wrapper">
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/shuri.jpg" alt="" />
-                <p>
-                  Shuri #1 3<br />
-                  <span>Okorafor, Romero</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/bp.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Black Panther #1 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/devil.jpg" alt="" />
-                <p>
-                  DareDevil #1 <br />
-                  <span>Soule, Garney</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/vn.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Venom Lethal #2 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/thor.jpg" alt="" />
-                <p>
-                  Thor: God Of Thunder #1 <br />
-                  <span>Aaron, Riblic</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/ml.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Miles Morales #1 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/widow.jpg" alt="" />
-                <p>
-                  Black Widow #1 <br />
-                  <span>Thompson, Lulis</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/wlr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Wolverine #29 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/x.jpg" alt="" />
-                <p>
-                  X-Men #1 <br />
-                  <span>Taylor, Larraz</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/dr.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DareDevil #1 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
-                <img src="images/comics/redgob.jpg" alt="" />
-                <p>
-                  Red Goblin <br />
-                  <span>Smith, Baldeon</span>
-                </p>
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
+                <img src="images/new-comicbooks/sw.jpg" alt="" />
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href=""
+                  >Spider-Woman #18 <br /><span>author, author</span></a
+                >
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/bcat.jpg" alt="" />
-                <p>
-                  Black Cat #6 <br />
-                  <span>Sumerak, Vito</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Black Cat #6 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/dp.jpg" alt="" />
-                <p>
-                  DeadPool #3 <br />
-                  <span>Thorne, Luis</span>
-                </p>
+              </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">DeadPool #3 <br /><span>author, author</span></a>
               </div>
             </div>
-            <div class="swiper-slide comics-swiper-slide-top">
-              <div class="swiper-slide-top comics-swiper-slide-inner">
+            <div class="swiper-slide comic-slide">
+              <div class="swiper-slide-top">
                 <img src="images/new-comicbooks/gr.jpg" alt="" />
-                <p>
-                  Ghost Rider #8 <br />
-                  <span>Nicieza, Bowden</span>
-                </p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="comic-top-cont-header">
-          <div class="comic-header-one">
-            <h2>Comics & Graphic Novels</h2>
-          </div>
-          <ul>
-            <li>
-              <button class="comics-top-cont-btn comics-btn-active" id="thisW">
-                This Week
-              </button>
-            </li>
-            <li>
-              <button class="comics-top-cont-btn" id="lastW">Last Week</button>
-            </li>
-            <li>
-              <button class="comics-top-cont-btn" id="upcm">Upcoming</button>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="verse-section">
-        <div class="verse-inner">
-          <h2 class="verse-header section-header">ENTER THE SPIDER VERSE</h2>
-          <div class="verse-container-hold">
-            <div class="verse_character_container verse_left">
-              <div class="versebox_container_top">
-                <div class="versebox">
-                  <div class="verseboxtop">
-                    <img src="images/characters/verse/mayday.webp" alt="" />
-                  </div>
-                  <div class="verseboxbot">
-                    <p>Spider-Girl (Mayday)</p>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img src="images/characters/verse/scarlet.jpg" alt="" />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Scarlet Spider (Kaine)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img src="images/characters/verse/noir.jpg" alt="" />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Spider-Man (Noir)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img
-                        src="images/characters/verse/spider2099-2.jpg"
-                        alt=""
-                      />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Miguel O'Hara (2099)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="versebox_container_bot">
-                <div class="versebox">
-                  <div class="verseboxtop">
-                    <img src="images/characters/verse/silk.jpg" alt="" />
-                  </div>
-                  <div class="verseboxbot">
-                    <p>Silk (Earth-616)</p>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img src="images/characters/verse/felicia.jpg" alt="" />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Black Cat (Felicia)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img src="images/characters/verse/jess.jpg" alt="" />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Jessica Drew (Ultimate)</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="versebox">
-                  <div class="versebox">
-                    <div class="verseboxtop">
-                      <img src="images/characters/verse/miles.webp" alt="" />
-                    </div>
-                    <div class="verseboxbot">
-                      <p>Miles Morales (Ultimate)</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="verse-right">
-              <div class="verse-right-header">
-                <h2>COMMUNITY</h2>
-                <p>SEE ALL</p>
-              </div>
-              <div class="verse-right-box-holder">
-                <div class="verse-right-box">
-                  <h2>TRIVIA TUESDAY: THE PARKER FAMILY</h2>
-                  <p class="verse-date">JAN 24</p>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, officia. Beatae quo laboriosam praesentium
-                    eos.
-                  </p>
-                </div>
-                <div class="verse-right-box">
-                  <h2>TRIVIA TUESDAY: THE PARKER FAMILY</h2>
-                  <p class="verse-date">JAN 24</p>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, officia. Beatae quo laboriosam praesentium
-                    eos.
-                  </p>
-                </div>
-                <div class="verse-right-box">
-                  <h2>TRIVIA TUESDAY: THE PARKER FAMILY</h2>
-                  <p class="verse-date">JAN 24</p>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, officia. Beatae quo laboriosam praesentium
-                    eos.
-                  </p>
-                </div>
+              <div class="swiper-slide-bot comic-slide-bot">
+                <a href="">Ghost Rider #8 <br /><span>author, author</span></a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="merch">
-        <div class="merch-inner">
-          <div class="merchbox">
-            <i class="fa-solid fa-book"></i>
-            <p>Digital Comicbooks</p>
-          </div>
-          <div class="merchbox">
-            <i class="fa-solid fa-shirt"></i>
-            <p>Marvel Merchandise</p>
-          </div>
-          <div class="merchbox">
-            <i class="fa-solid fa-credit-card"></i>
-            <p>Subscriptions</p>
-          </div>
-          <div class="merchbox">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>Comic Shop Locator</p>
-          </div>
-        </div>
-      </section>
-      <section class="who verse-section">
-        <div class="who-inner">
-          <h2 class="section-header who-header">
-            Who's <br /><span>Who</span>
-          </h2>
-          <div class="who-box-holder">
-            <div class="who-box" id="whoOne">
-              <div class="who-box-inner" id="whoInnerOne">
-                <p>Iron Man</p>
-              </div>
-            </div>
-            <div class="who-box" id="whoTwo">
-              <div class="who-box-inner" id="whoInnerTwo">
-                <p>Captain America</p>
-              </div>
-            </div>
-            <div class="who-box" id="whoThree">
-              <div class="who-box-inner" id="whoInnerThree">
-                <p>Thor</p>
-              </div>
-            </div>
-            <div class="who-box" id="whoFour">
-              <div class="who-box-inner" id="whoInnerFour">
-                <p>Hulk</p>
-              </div>
-            </div>
-            <div class="who-box" id="whoFive">
-              <div class="who-box-inner" id="whoInnerFive">
-                <p>Black Widow</p>
-              </div>
-            </div>
-            <div class="who-box" id="whoSix">
-              <div class="who-box-inner" id="whoInnerSix">
-                <p>HawkEye</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="browse" id="browseSection">
-        <div class="browse-inner">
-          <h2 class="verse-header section-header">BROWSE OUR CHARACTERS</h2>
-          <div class="browse-card-holder" id="browseCardHolderOne">
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/daredeviltwo.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>DareDevil</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/elektratwo.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Elektra</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/peter.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Spider-Man</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/logan.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Wolverine</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/storm.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Storm</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/wade.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>DeadPool</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/pride.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Kitty Pryde</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/heart.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Iron Heart</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/tony.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Iron Man</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/venom.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Venom</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/bruce.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Hulk</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/jen.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>She Hulk</p>
-              </div>
-            </div>
-          </div>
-          <div class="browse-card-holder" id="browseCardHolderTwo">
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/strng.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Dr Strange</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/pnthr.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Black Panther</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/jean.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Jean Gray</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/falcon.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>The Falcon</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/warmachine.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Warmachine</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/starlord.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Star Lord</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/rocket.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Rocket</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/gamora.webp" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Gamora</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/ohara.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Miguel</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/rider.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Ghost Rider</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/spiderwoman.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Spider-Woman</p>
-              </div>
-            </div>
-            <div class="browse-card">
-              <div class="browse-card-top">
-                <img src="images/characters/browse/antivenom.jpg" alt="" />
-              </div>
-              <div class="browse-card-bot">
-                <p>Anti Venom</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="browse-button-holder">
-          <a href="#browseSection">
-            <button class="browse-button-active" id="browseBtnOne">1</button>
-          </a>
-          <a href="#browseSection"><button id="browseBtnTwo">2</button></a>
-        </div>
-      </section>
-      <!-- <section class="character-modal-container">
-        <div class="character-modal" id="venomModal">
-          <div class="character-modal-left">
-            <div class="character-modal-main-image"></div>
-            <div class="character-images">reee</div>
-          </div>
-          <div class="character-modal-right">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-              voluptatibus, eius sapiente amet ex sequi magnam voluptatum non
-              possimus quaerat.
-            </p>
-          </div>
-        </div>
-      </section> -->
     </main>
-    <footer id="charactersFooter">
-      <div class="characters-footer-inner">
-        <div class="characters-footer-left">
-          <div class="character-footer-left-top">
-            <div class="character-footer-col">
-              <p class="character-footer-header">MARVEL COMICS</p>
-              <ul>
-                <li><a href="">Characters</a></li>
-                <li><a href="">Comics</a></li>
-                <li><a href="">Movies</a></li>
-                <li><a href="">TV</a></li>
-                <li><a href="">Games</a></li>
-                <li><a href="">Videos</a></li>
-                <li><a href="">News</a></li>
-              </ul>
-            </div>
-            <div class="character-footer-col">
-              <p class="character-footer-header">MARVEL</p>
-              <ul>
-                <li><a href="">Terms Of Use</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Ad Choices</a></li>
-                <li><a href="">Advertising</a></li>
-                <li><a href="">Jobs</a></li>
-                <li><a href="">Subscriptions</a></li>
-                <li><a href="">Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="character-footer-col">
-              <p class="character-footer-header">SITES</p>
-              <ul>
-                <li><a href="">MARVEL</a></li>
-                <li><a href="">MARVEL MULTIVERSE</a></li>
-                <li><a href="">MARVEL Kids</a></li>
-                <li><a href="">MARVEL Shop</a></li>
-                <li><a href="">MAD Magazine</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="character-footer-left-bot">
-            <p>
-              All Site Content © & TM MARVEL, unless otherwise
-              <a href="">noted here</a>. All rights reserved.
-              <a href="">Cookie Settings</a>
-            </p>
-          </div>
-        </div>
-        <div class="characters-footer-right">
-          <h2 class="navlogo footerlogo"><a href="index.html">MARVEL</a></h2>
-        </div>
-      </div>
-      <div class="footer-inner-bottom">
-        <div class="footer-bot-left"><button>REGISTER NOW!</button></div>
-        <div class="footer-bot-right">
-          <p>FOLLOW US</p>
-          <a
-            href="https://www.facebook.com/Marvel"
-            target="_blank"
-            class="footer-link-icon"
-          >
-            <i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a
-            href="https://twitter.com/marvel"
-            target="_blank"
-            class="footer-link-icon"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a
-            href="https://www.youtube.com/channel/UCvC4D8onUfXzvjTOM-dBfEA"
-            target="_blank"
-            class="footer-link-icon"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-    <script src="js/swiper-bundle.min.js"></script>
+    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/comics.js"></script>
   </body>
 </html>
