@@ -18,7 +18,7 @@ body {
 }
 
 :root {
-  --main-color: #b60000;
+  --main-color: #820000;
   --accent-color: #00b1f6;
   --accent-darker: #005475;
   --background-color: #fff;
@@ -1204,6 +1204,97 @@ footer {
   border: 3px solid #fff;
 }
 
+/* Comics */
+
+.comics-top-cont {
+  height: 45rem;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.comics-top-swiper {
+  width: 100%;
+  height: 80%;
+}
+
+.comics-swiper-slide-top {
+  background: none;
+}
+
+.comics-swiper-slide-inner {
+  height: 30rem;
+  width: 20rem;
+}
+
+.comics-swiper-slide-inner p {
+  text-align: left;
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 0 0 4px #fff;
+}
+
+.comics-swiper-slide-inner span {
+  font-size: 0.9rem;
+  color: var(--main-color);
+  text-shadow: 0 0 4px var(--main-color);
+}
+
+.comic-top-cont-header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comic-top-cont-header ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.comic-header-one {
+  background: var(--main-color);
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.comic-header-one h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 4px #fff;
+  letter-spacing: 0.2rem;
+}
+
+.comics-top-cont-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.comics-btn-active {
+  color: var(--main-color);
+  text-shadow: 0 0 4px var(--main-color);
+}
+
+#comicTopContTwo {
+  display: none;
+}
+
+#comicTopContThree {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   /* Navigation */
   .navbar {
@@ -1322,6 +1413,11 @@ footer {
 
   .who-box-holder {
     justify-content: center;
+  }
+
+  .comics-swiper-slide-inner {
+    height: 25rem;
+    width: 15rem;
   }
 }
 
